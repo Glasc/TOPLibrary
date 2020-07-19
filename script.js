@@ -29,7 +29,7 @@ const render = ({ title, year, author, read }) => {
 
   return `
   <div class="card">
-      <img class="card-img" src="https://picsum.photos/200/300" alt="">
+      <img class="card-img" src="icon/bookImg.jpg" alt="">
       <div class="card-about">
         <h2 class="title">${title}</h2>
         <h3 class="release-year">${year}</h3>
