@@ -77,7 +77,6 @@ form.addEventListener('submit', (e) => {
 
   addBookToLibrary(myLibrary, new Book(title, year, author, read))
   showCards()
-  form.reset()
 })
 
 cardWrapper.addEventListener('click', (e) => {
